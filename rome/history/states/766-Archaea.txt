@@ -1,0 +1,34 @@
+
+state={
+	id=766
+	name="STATE_766"
+	resources={
+		stone=1
+		wood=2
+	}
+
+	history={
+		owner = ARC
+		victory_points = {
+			7211 40
+		}
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+			7211 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = ARC
+
+	}
+	provinces={
+		7211 
+	}
+	manpower=300000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

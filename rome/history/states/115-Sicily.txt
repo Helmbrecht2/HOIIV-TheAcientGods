@@ -2,29 +2,29 @@
 state={
 	id=115
 	name="STATE_115"
+	resources={
+		horses=1
+		stone=2
+		iron=1
+	}
 
 	history={
-		owner = ITA
+		owner = MGR
 		victory_points = {
 			4159 10 
 		}
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
-			air_base = 10
-			dockyard = 1
+			dockyard = 0
 
 			4159 = {
 				naval_base = 8
 
 			}
-			4014 = {
-				naval_base = 3
-
-			}
 
 		}
-		add_core_of = ITA
+		add_core_of = MGR
 
 	}
 
@@ -33,5 +33,5 @@ state={
 	}
 	manpower=22571
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=town
 }
